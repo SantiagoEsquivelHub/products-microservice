@@ -23,5 +23,5 @@ const envVars: EnvVars = value;
 
 export const envs = {
     port: envVars.PORT,
-    DATABASE_URL: envVars.DATABASE_URL,
+    databaseUrl: envVars.DATABASE_URL,
 }
